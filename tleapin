@@ -1,0 +1,6 @@
+source leaprc.ff03.r1
+source leaprc.lipid14
+POPC = loadPdb POPC.pdb
+check POPC
+saveAmberParm POPC POPC.prmtop POPC.inpcrd
+quit
